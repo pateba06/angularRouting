@@ -5,7 +5,7 @@
 2)We gonna use navigation bar which for that we will copy below code in our HTML file.
 
 Copy Below Code to app.component.html file
-```JS 
+```html
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -30,7 +30,7 @@ Copy Below Code to app.component.html file
 3)We are going to add bootstrap. It is only just to see our element style rendered perfectly
 This is optional, it has no relation with the concept of routing. 
 Please add in index.html file in the head element
-```js
+```html
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -85,13 +85,13 @@ Step 2 : app-routing.module.ts
 
 a. imports RouterModule and Routes so the application can have routing functionality.
 
-```
+```ts
 import {RouterModule,Routes} from '@angular/router'
 ```
 b. We can remove CommonModule and declaration array as it unnecessary at the moment.
 We wil import RouterModule
 
-```
+```ts
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
 })
@@ -102,7 +102,7 @@ The method is called forRoot() because you configure the router at the applicati
 
 c. Export RouterModule so it can be available throughtout the app.
 
-```
+```ts
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports:[RouterModule]
@@ -114,7 +114,7 @@ d. Configure our Routes. Routes tell the Router which view to display when a use
 A typical Angular Route has two properties:
 path: a string that matches the URL in the browser address bar.
 component: the component that the router should create when navigating to this route.
-```
+```ts
 //make sure the component are imported
 const routes:Routes = [
   {

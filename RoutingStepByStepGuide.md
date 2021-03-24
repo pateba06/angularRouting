@@ -59,6 +59,19 @@ ng g c tablet/tablet
 ![image](https://user-images.githubusercontent.com/34305933/112248599-8dc6d580-8c2c-11eb-9755-1dca61dc73b0.png)
 
 
-#Steps of Routing Concept in Angular
+##Steps of Routing Concept in Angular
 
+Step 1: Create app-routing file. If it is new project you may have to create it, as in our case we will create it. 
+
+Use below code to generate app-routing File
+
+```
+
+ng g m app-routing --flat --module=app
+
+\\--flat puts the file insrc/app instead of its own folder.
+\\--module=app tells the CLI to register  it in the imports array of the AppModule
+```
+
+Step 2 :
 

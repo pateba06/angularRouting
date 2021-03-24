@@ -39,3 +39,18 @@ Please add in index.html file in the head element
 4) Run the application and see our application. It should look like below screenshot. 
 
 ![image](https://user-images.githubusercontent.com/34305933/112247406-a0d8a600-8c2a-11eb-8b0d-3ad4a86abb3e.png)
+
+
+5) Now we have to create component for Home, Iphone, Laptop and Tablet. As we will use for navigation.
+
+so we will create component for each feature.
+
+```
+/*Please run below commands..In real project it is good to create different folders for differnt features.So I am creating component in new folders*/
+
+ng g c home/home   
+ng g c iphone/iphone
+ng g c laptop/laptop
+ng g c tablet/tablet
+```
+

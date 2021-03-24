@@ -171,3 +171,50 @@ const routes:Routes = [
 export class AppRoutingModule { }
 
 ```
+
+
+Step 3 :Adding Routes to our Application . i.e in out app.component.html file
+
+a. Add routerLink inside anchor tag to add route.
+```html
+      <li><a routerLink="/home">Home</a></li>
+      <li><a routerLink="iphone">Iphone</a></li>
+      <li><a routerLink="/laptop">Laptop</a></li>
+      <li><a routerLink="/tablet">Tablet</a></li>
+
+
+```
+
+b. add <router-outlet> </router-outlet>
+
+```html
+<router-outlet></router-outlet>
+```
+
+--- the code till now in app.component.html file look like as below till now. Cross check your flow.
+
+```html
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" >Let's Learn Routing</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a routerLink="/home">Home</a></li>
+      <li><a routerLink="iphone">Iphone</a></li>
+      <li><a routerLink="/laptop">Laptop</a></li>
+      <li><a routerLink="/tablet">Tablet</a></li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+```
+
+Basic Routing is done. We can test it now.
+
+Test 1: Run the application and test it
+
+I am attaching a screenshot that it works.
+![image](https://user-images.githubusercontent.com/34305933/112256277-f23c6180-8c39-11eb-9f8c-bd2b4e200d61.png)
+

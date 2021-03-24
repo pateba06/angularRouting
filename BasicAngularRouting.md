@@ -1,4 +1,8 @@
-# angularRouting
+# Basic AngularRouting
+# You can clone this particular branch by running below code. 
+git clone -b one_BasicRouting https://github.com/pateba06/angularRouting.git
+
+
                             Basic Setup
 
 1)create an angular app.

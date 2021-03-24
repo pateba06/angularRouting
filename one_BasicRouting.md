@@ -1,4 +1,8 @@
 # Basic AngularRouting
+Pleae visit this particular branch by clicking one_BasicRouting.  Then follow the guide.
+
+![image](https://user-images.githubusercontent.com/34305933/112258913-b5726980-8c3d-11eb-87cb-113486983dc8.png)
+
 You can clone this particular branch by running below code. 
 git clone -b one_BasicRouting https://github.com/pateba06/angularRouting.git
 

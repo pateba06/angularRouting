@@ -21,10 +21,7 @@ Copy Below Code to app.component.html file
   </div>
 </nav>
   
-<div class="container">
-  <h3>Inverted Navbar</h3>
-  <p>An inverted navbar is black instead of gray.</p>
-</div>
+
 ```
 
 3)We are going to add bootstrap. It is only just to see our element style rendered perfectly
@@ -38,7 +35,8 @@ Please add in index.html file in the head element
 
 4) Run the application and see our application. It should look like below screenshot. 
 
-![image](https://user-images.githubusercontent.com/34305933/112247406-a0d8a600-8c2a-11eb-8b0d-3ad4a86abb3e.png)
+![image](https://user-images.githubusercontent.com/34305933/112254723-74775680-8c37-11eb-8074-1f44a861da3f.png)
+
 
 
 5) Now we have to create component for Home, Iphone, Laptop and Tablet. As we will use for navigation.

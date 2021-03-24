@@ -76,5 +76,10 @@ Your app-routing file look like this
 
 ![image](https://user-images.githubusercontent.com/34305933/112249981-0b8be080-8c2f-11eb-8bcc-c9e0e47f14e3.png)
 
+This is how my components and root files look like till now.
+
+![image](https://user-images.githubusercontent.com/34305933/112250101-3d9d4280-8c2f-11eb-958f-e850e276df46.png)
+
+
 Step 2 :
 

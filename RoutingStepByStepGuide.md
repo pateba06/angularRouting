@@ -1,6 +1,7 @@
                             Basic Setup
 
 1)create an angular app.
+
 2)We gonna use navigation bar which for that we will copy below code in our HTML file.
 
 Copy Below Code to app.component.html file

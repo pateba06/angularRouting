@@ -109,12 +109,13 @@ c. Export RouterModule so it can be available throughtout the app.
 })
 ```
 
-d. Congigure our Routes. Routes tell the Router which view to display when a user clicks a link or pastes a URL into addressbar.
+d. Configure our Routes. Routes tell the Router which view to display when a user clicks a link or pastes a URL into addressbar.
 
 A typical Angular Route has two properties:
 path: a string that matches the URL in the browser address bar.
 component: the component that the router should create when navigating to this route.
 ```
+//make sure the component are imported
 const routes:Routes = [
   {
     path:'home', 
@@ -133,4 +134,42 @@ const routes:Routes = [
   component:TabletComponent
 },
 ]
+```
+
+--- the code till now in app.routing.module.ts look like as below till now. Cross check your flow.
+
+```
+import { NgModule } from '@angular/core';
+import {RouterModule,Routes} from '@angular/router'
+import { HomeComponent } from './home/home/home.component';
+import { IphoneComponent } from './iphone/iphone/iphone.component';
+import { LaptopComponent } from './laptop/laptop/laptop.component';
+import { TabletComponent } from './tablet/tablet/tablet.component';
+
+const routes:Routes = [
+  {
+    path:'home', 
+    component:HomeComponent
+ },
+ {
+  path:'iphone', 
+  component:IphoneComponent
+},
+{
+  path:'laptop', 
+  component:LaptopComponent
+},
+{
+  path:'tablet', 
+  component:TabletComponent
+},
+]
+
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports:[RouterModule]
+})
+export class AppRoutingModule { }
+
 ```

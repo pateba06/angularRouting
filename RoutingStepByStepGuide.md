@@ -10,10 +10,10 @@ Copy Below Code to app.component.html file
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Let's Learn Routing</a>
+      <a class="navbar-brand">Let's Learn Routing</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
+      <li class="active"><a>Home</a></li>
       <li><a href="#">Page 1</a></li>
       <li><a href="#">Page 2</a></li>
       <li><a href="#">Page 3</a></li>
@@ -81,5 +81,22 @@ This is how my components and root files look like till now.
 ![image](https://user-images.githubusercontent.com/34305933/112250222-63c2e280-8c2f-11eb-9b29-d0ad2244b95b.png)
 
 
-Step 2 :
+Step 2 : app-routing.module.ts
+
+a. imports RouterModule and Routes so the application can have routing functionality.
+
+```
+import {RouterModule,Routes} from '@angular/router'
+```
+b. We can remove CommonModule and declaration array as it unnecessary at the moment.
+We wil import RouterModule
+
+```
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+})
+```
+The @NgModule metadata initializes the router and starts it listening for browser location changes.
+The following line adds the RouterModule to the AppRoutingModule imports array and configures it with the routes in one step by calling RouterModule.forRoot():
+The method is called forRoot() because you configure the router at the application's root level. The forRoot() method supplies the service providers and directives needed for routing, and performs the initial navigation based on the current browser URL.
 

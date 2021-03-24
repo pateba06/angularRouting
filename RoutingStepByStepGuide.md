@@ -72,6 +72,9 @@ ng g m app-routing --flat --module=app
 \\--flat puts the file insrc/app instead of its own folder.
 \\--module=app tells the CLI to register  it in the imports array of the AppModule
 ```
+Your app-routing file look like this
+
+![image](https://user-images.githubusercontent.com/34305933/112249981-0b8be080-8c2f-11eb-8bcc-c9e0e47f14e3.png)
 
 Step 2 :
 

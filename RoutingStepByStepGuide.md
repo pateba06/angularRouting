@@ -1,7 +1,7 @@
                             Basic Setup
 
 1)create an angular app.
-2)We gonna use navigation bar which has Bootstrap
+2)We gonna use navigation bar which for that we will copy below code in our HTML file.
 
 Copy Below Code to app.component.html file
 ```JS 
@@ -35,5 +35,4 @@ Please add in index.html file in the head element
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 ```
 
-4) Run the application and see our application. It should look like this.
-
+4) Run the application and see our application. It should look

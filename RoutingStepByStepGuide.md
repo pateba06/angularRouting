@@ -36,4 +36,6 @@ Please add in index.html file in the head element
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 ```
 
-4) Run the application and see our application. It should look
+4) Run the application and see our application. It should look like below screenshot. 
+
+![image](https://user-images.githubusercontent.com/34305933/112247406-a0d8a600-8c2a-11eb-8b0d-3ad4a86abb3e.png)

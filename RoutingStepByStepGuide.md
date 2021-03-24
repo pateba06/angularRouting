@@ -138,7 +138,7 @@ const routes:Routes = [
 
 --- the code till now in app.routing.module.ts look like as below till now. Cross check your flow.
 
-```
+```ts
 import { NgModule } from '@angular/core';
 import {RouterModule,Routes} from '@angular/router'
 import { HomeComponent } from './home/home/home.component';

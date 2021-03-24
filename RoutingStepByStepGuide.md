@@ -46,11 +46,19 @@ Please add in index.html file in the head element
 so we will create component for each feature.
 
 ```
-/*Please run below commands..In real project it is good to create different folders for differnt features.So I am creating component in new folders*/
+/*Please run below commands..In real project it is good to create different folders for differnt features.
+So I am creating component in new folders*/
 
 ng g c home/home   
 ng g c iphone/iphone
 ng g c laptop/laptop
 ng g c tablet/tablet
 ```
+6) Final Check before we start our Routing Concept. Open app.module.ts. Please see all components are imported and declared.
+
+![image](https://user-images.githubusercontent.com/34305933/112248599-8dc6d580-8c2c-11eb-9755-1dca61dc73b0.png)
+
+
+#Steps of Routing Concept in Angular
+
 

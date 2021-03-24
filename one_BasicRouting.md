@@ -1,3 +1,10 @@
+# Basic AngularRouting
+You can clone this particular branch by running below code. 
+git clone -b one_BasicRouting https://github.com/pateba06/angularRouting.git
+
+
+Please follow step by step to do basic routing.
+
                             Basic Setup
 
 1)create an angular app.
@@ -219,3 +226,8 @@ I am attaching a screenshot that it works.
 ![image](https://user-images.githubusercontent.com/34305933/112256277-f23c6180-8c39-11eb-9f8c-bd2b4e200d61.png)
 
 .
+
+
+# I hope this basic routing helps to understand how it works. This is very basic. Still we have to load children. 
+I wanted to make it very very simple to understand the basic, as all this will help you to understand advance concept like Eager Loading, Lazy Loading and Pre-loading.
+Please feel free to reach at pateba06@gmail.com
